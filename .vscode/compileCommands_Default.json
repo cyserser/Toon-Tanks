@@ -10,6 +10,16 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
+		"file": "C:\\Users\\Celestial\\Documents\\Unreal Projects\\Toon-Tanks\\Source\\ToonTanks\\Tank.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Celestial\\Documents\\Unreal Projects\\Toon-Tanks\\.vscode\\compileCommands_Default\\ToonTanks.205.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Celestial\\Documents\\Unreal Projects\\Toon-Tanks\\Source\\ToonTanks\\Tank.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Celestial\\Documents\\Unreal Projects\\Toon-Tanks\\.vscode\\compileCommands_Default\\ToonTanks.205.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
 		"file": "C:\\Users\\Celestial\\Documents\\Unreal Projects\\Toon-Tanks\\Source\\ToonTanks\\ToonTanks.Build.cs",
 		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Celestial\\Documents\\Unreal Projects\\Toon-Tanks\\.vscode\\compileCommands_Default\\ToonTanks.205.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
