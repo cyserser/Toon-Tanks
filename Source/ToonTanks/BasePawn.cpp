@@ -42,7 +42,7 @@ void ABasePawn::Fire()
 			ProjectileSpawnPoint->GetComponentLocation(),
 			ProjectileSpawnPoint->GetComponentRotation());
 
-	Projectile->SetOwner(this);
+		Projectile->SetOwner(this);
 }
 
 void ABasePawn::HandleDestruction()
@@ -50,6 +50,8 @@ void ABasePawn::HandleDestruction()
 	UGameplayStatics::SpawnEmitterAtLocation(this, DeathEffect, GetActorLocation(), GetActorRotation());
 	UGameplayStatics::PlaySoundAtLocation(this, DeathSound, GetActorLocation());
 
+	// Camera Shake	
+	GetWorld()->GetFirstPlayerController()->ClientStartCameraShake(DeathCameraShakeClass);
 }
 
 

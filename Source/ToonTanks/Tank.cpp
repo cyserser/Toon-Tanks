@@ -84,4 +84,6 @@ void ATank::HandleDestruction()
    
     SetActorHiddenInGame(true);
     SetActorTickEnabled(false);
+
+    IsAlive = false;
 }

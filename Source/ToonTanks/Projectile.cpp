@@ -6,6 +6,8 @@
 #include "GameFramework/DamageType.h"
 #include "Kismet/GameplayStatics.h"
 #include "Particles/ParticleSystemComponent.h"
+#include "Camera/CameraShakeBase.h"
+
 
 // Sets default values
 AProjectile::AProjectile()
@@ -59,6 +61,8 @@ void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
 		{
 			UGameplayStatics::PlaySoundAtLocation(this, HitSound, GetActorLocation());
 			UGameplayStatics::SpawnEmitterAtLocation(this, HitParticles, GetActorLocation(), GetActorRotation());
+			
+			GetWorld()->GetFirstPlayerController()->ClientStartCameraShake(HitCameraShakeClass);
 		}
 	}
 		Destroy();	
